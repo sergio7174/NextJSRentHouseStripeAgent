@@ -18,6 +18,7 @@
 ## 🔌 Technologies Used ✔️
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
@@ -33,7 +34,7 @@
 
 ## 🛠️ Tech Stack &amp; Architecture
 
-- **Frontend (`:3000`)**: Next.js (App Router / Pages Router), React, TypeScript, Redux Toolkit, Bootstrap / CSS Modules / Tailwind CSS, `PayNowButton`, `/booking/success` &amp; `/booking/cancel` pages, and `AiChatWidget` with HITL interactive cards.
+- **Frontend (`:3000`)**: Next.js (App Router / Pages Router), React, TypeScript, Redux Toolkit, Bootstrap / CSS Modules  `PayNowButton`, `/booking/success` &amp; `/booking/cancel` pages, and `AiChatWidget` with HITL interactive cards.
 - **Backend API (`:3001`)**: Node.js + Express microservice handling house listings (`House`), bookings (`Booking` / `bookingdetails`), authentication, Stripe Checkout session creation (`POST /create-checkout-session`), and raw-body Stripe webhook processing (`POST /api/payments/webhook`).
 - **AI Helper Service (`:8000`)**: Python 3.13, FastAPI (SSE streaming &amp; `/api/agent/turn`), LangGraph / Deep Agents, `MemorySaver` checkpointer keyed on `thread_id`, `httpx`, and `pytest` + `pytest-asyncio`.
 - **Database**: MongoDB storing users, house listings, and bookings (`bookingdetails` with fields such as `paymentStatus` / `paymentstatus`, `stripeSessionId`, and `paidAt`).
