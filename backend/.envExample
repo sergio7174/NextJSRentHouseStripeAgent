@@ -1,0 +1,7 @@
+MONGO_URI=mongodb://localhost:27017/your_database
+PORT=3001
+MODE=development
+JWT_SECRETKEY=replace_with_a_random_secret
+STRIPE_SECRET_KEY=replace_with_your_stripe_secret_key
+STRIPE_WEBHOOK_SECRET=replace_with_your_stripe_webhook_secret
+CLIENT_URL=http://localhost:3000
