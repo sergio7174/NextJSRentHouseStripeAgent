@@ -40,7 +40,24 @@
 - **Containers &amp; CI**: Multi-stage Dockerfiles, `docker-compose.yml` (with `host.docker.internal` support for local MongoDB), and GitHub Actions CI (`.github/workflows/ci.yml`).
 
 ---
-
+##  Screenshots:
+📸
+<br>
+<img src="./SYSTEM IMAGES/ADMINDASHBOARD01.jpg" alt="project screenshot01" />
+<img src="./SYSTEM IMAGES/ADMINDASHBOARD02.jpg" alt="project screenshot02" />
+<img src="./SYSTEM IMAGES/ADMINDASHBOARD03.jpg" alt="project screenshot03" />
+<img src="./SYSTEM IMAGES/ADMINDASHBOARD04.jpg" alt="project screenshot04" />
+<img src="./SYSTEM IMAGES/MAINDASBOARD.jpg" alt="project screenshot05" />
+<img src="./SYSTEM IMAGES/OWNERDASBOARD01.jpg" alt="project screenshot06" />
+<img src="./SYSTEM IMAGES/OWNERDASBOARD02.jpg" alt="project screenshot07" />
+<img src="./SYSTEM IMAGES/OWNERDASBOARD03.jpg" alt="project screenshot08" />
+<img src="./SYSTEM IMAGES/OWNERDASBOARD04.jpg" alt="project screenshot09" />
+<img src="./SYSTEM IMAGES/OWNERDASBOARD05.jpg" alt="project screenshot10" />
+<img src="./SYSTEM IMAGES/TENANTDASBOARD01.jpg" alt="project screenshot11" />
+<img src="./SYSTEM IMAGES/TENANTDASBOARD02.jpg" alt="project screenshot12" />
+<img src="./SYSTEM IMAGES/TENANTDASBOARDAGENTPAYPLATT.jpg" alt="project screenshot13" />
+<br>
+---
 ## 🔑 Key Features
 
 - **Role-Based Rental Workflows**: Support for Tenant, Owner, and Admin flows—browsing/managing houses, bookings, and accounts.
